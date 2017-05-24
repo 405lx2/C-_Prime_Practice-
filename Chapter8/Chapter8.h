@@ -1,7 +1,7 @@
 //
 // Created by 405lx on 2017/5/23.
 //
-
+#include <string>
 #ifndef C_PRIME_PRACTICE_CHAPTER8_H
 #define C_PRIME_PRACTICE_CHAPTER8_H
 
@@ -18,8 +18,10 @@ struct candy_bar {
 //Definition of function
 //void print_string_times(const char *str, int);
 
-void set_value_for_candy_bar(candy_bar &candy_bar1, const char *pname = "Millennium Munch", double weight = 2.85,
-                             int heat = 350);
+//void set_value_for_candy_bar(candy_bar &candy_bar1, const char *pname = "Millennium Munch", double weight = 2.85,
+//                             int heat = 350);
+//
+//void show_value_in_candy_bar(const candy_bar &candy_bar1);
 
-void show_value_in_candy_bar(const candy_bar &candy_bar1);
+int string_to_upper(std::string &string_to_cast);
 #endif //C_PRIME_PRACTICE_CHAPTER8_H
