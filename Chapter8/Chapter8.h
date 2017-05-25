@@ -15,6 +15,9 @@ struct candy_bar {
     int candy_bar_heat;
 };
 
+//Definition of template
+//template <typename Tvalue>
+
 //Definition of function
 //void print_string_times(const char *str, int);
 
@@ -23,5 +26,9 @@ struct candy_bar {
 //
 //void show_value_in_candy_bar(const candy_bar &candy_bar1);
 
-int string_to_upper(std::string &string_to_cast);
+//int string_to_upper(std::string &string_to_cast);
+
+// Note : Separation implementation is not support Template
+//Tvalue max5(Tvalue[]);
+
 #endif //C_PRIME_PRACTICE_CHAPTER8_H
